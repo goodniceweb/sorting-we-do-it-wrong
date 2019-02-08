@@ -21,6 +21,6 @@ python -m SimpleHTTPServer 8000
 python -m http.server 8000
 ```
 
-Your presentation lives in `presentation.md`
+Your presentation lives in `presentation.md`. Please edit this file to add your content.
 
 [Remark](https://remarkjs.com/) has very good [docs](https://github.com/gnab/remark/wiki)
