@@ -1,0 +1,45 @@
+/* first page styles */
+.first-page__header {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.first-page__logo {
+  width: 350px;
+  height: 116px;
+}
+
+.first-page__caption {
+  margin: 0 0 0 28px;
+  width: 228px;
+  color: #ccc;
+  text-align: left;
+  font-family: Ubuntu;
+  font-size: 2.3rem;
+}
+
+.first-page__footer {
+  position: absolute;
+  bottom: 2.7rem;
+  left: 50%;
+}
+
+.first-page__footer-image {
+  width: 130px;
+}
+
+/* end first page styles*/
+/* regular page styles */
+
+.regular-page__background {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.regular-page__logo {
+  width: 200px;
+}
+
+/* end regular page styles */
