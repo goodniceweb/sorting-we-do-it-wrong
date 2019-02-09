@@ -13,6 +13,7 @@ We have [multiple ways](https://gist.github.com/willurd/5720255) to achieve it. 
 ```
 # 1 - with Docker
 docker run -d -p 8080:80 --name itechart-presentation -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4-alpine
+# then for second run use: docker start itechart-presentation
 
 # 2 - Python 2
 python -m SimpleHTTPServer 8000
